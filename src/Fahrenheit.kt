@@ -1,0 +1,2 @@
+class Fahrenheit: Temperature {
+}

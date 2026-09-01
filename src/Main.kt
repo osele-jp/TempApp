@@ -6,4 +6,4 @@ fun main() {
     myTemp.setTemp(0.0)
 
     println("The temperature is ${myTemp.getTemp()}")
-}
+}   
