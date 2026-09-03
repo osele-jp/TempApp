@@ -9,7 +9,8 @@ abstract class Temperature (
     }
 
     private fun setTemp(unit: Unit, temp: Double) {
-        this.temp = when (unit) {
+        this.temp = when (unit)
+        {
             Unit.C -> 273.15 + temp
             Unit.F -> ((temp - 32) * (5.0 / 9.0)) + 273.15
             else -> temp
